@@ -76,9 +76,9 @@ patch:
   # english 翻譯器的設定項
   english:
     dictionary: easy_en
-    spelling_hints: 9
+    # spelling_hints: 9
     enable_completion: false
-    enable_sentence: false
+    enable_sentence: true
     initial_quality: -3
 
   recognizer:

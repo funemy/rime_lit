@@ -57,7 +57,10 @@ import_tables:
   # - f_myphrases
   # - f_mysecretphrases
 ...
+# 自己的词
+朋友	py	1
 
+# 预设
 一一列舉		1
 一一堪垂淚		1
 一一生綠苔		1

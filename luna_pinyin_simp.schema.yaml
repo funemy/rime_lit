@@ -5,7 +5,7 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-customization: 43443
+customization: 2314446980
 engine:
   filters:
     - simplifier
@@ -35,9 +35,8 @@ engine:
 english:
   dictionary: easy_en
   enable_completion: false
-  enable_sentence: false
-  initial_quality: "-3"
-  spelling_hints: 9
+  enable_sentence: true
+  initial_quality: "-1"
 key_binder:
   bindings:
     - {accept: "Control+Shift+4", toggle: zh_simp, when: always}
@@ -61,7 +60,7 @@ schema:
     
   name: "朙月拼音·简化字"
   schema_id: luna_pinyin_simp
-  version: 0.22.custom.43443
+  version: 0.22.custom.2314446980
 simplifier:
   option_name: zh_simp
 speller:
