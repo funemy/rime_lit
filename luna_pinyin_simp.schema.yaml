@@ -5,7 +5,7 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-customization: 3506050132
+customization: 43443
 engine:
   filters:
     - simplifier
@@ -61,12 +61,13 @@ schema:
     
   name: "朙月拼音·简化字"
   schema_id: luna_pinyin_simp
-  version: 0.22.custom.3506050132
+  version: 0.22.custom.43443
 simplifier:
   option_name: zh_simp
 speller:
   algebra:
     - "xform/^([b-df-hj-np-tv-z])$/$1_/"
+    - "erase/^xx$/"
     - "derive/([aeiou])ng$/$1gn/"
     - "derive/([dtngkhrzcs])o(u|ng)$/$1o/"
     - "derive/ong$/on/"

@@ -89,6 +89,7 @@ patch:
       punct: "^/([a-z]+|[0-9]0?)$"
 
   'speller/algebra':
+    - erase/^xx$/                      # 第一行保留
     # 自動糾正一些常見的按鍵錯誤
     - derive/([aeiou])ng$/$1gn/        # dagn => dang
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
