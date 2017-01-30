@@ -1,8 +1,21 @@
 app_options:
-  ascii_mode: false
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+    no_inline: true
+  com.blacktree.Quicksilver:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
 chord_duration: 0.1
-config_version: 0.22.custom.3677511861
-customization: 3677511861
+config_version: 0.22.custom.3507083518
+customization: 3507083518
 preset_color_schemes:
   aqua:
     author: "佛振 <chen.sst@gmail.com>"

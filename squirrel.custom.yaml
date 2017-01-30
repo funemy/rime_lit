@@ -4,8 +4,10 @@ patch:
     horizontal: true
     font_point: 14
     color_scheme: clean_white
-  app_options:
-    ascii_mode: false
+  # app_options:
+  #   # ascii_mode: false
+  #   com.github.atom:
+  #     ascii_mode: false
 
 # 状态通知，适当，也可设为全开（always）全关（never）
 #  show_notifications_when: appropriate
