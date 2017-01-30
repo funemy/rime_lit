@@ -1,0 +1,14 @@
+patch:
+  menu:
+    page_size: 9
+  schema_list:
+    - schema: luna_pinyin_simp
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Shift_L: commit_code
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
+      Caps_Lock: noop
+      Eisu_toggle: clear
