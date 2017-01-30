@@ -78,7 +78,8 @@ patch:
     dictionary: easy_en
     # spelling_hints: 9
     enable_completion: false
-    enable_sentence: true
+    enable_sentence: false
+    # enable_user_dict: true
     initial_quality: -3
 
   recognizer:
